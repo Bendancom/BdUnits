@@ -1,0 +1,28 @@
+{
+  "nodes": {
+    "nixpkgs-proxy": {
+      "locked": {
+        "lastModified": 1792502884,
+        "narHash": "sha256-IoNisKcGbUjdd45qCqywGMCYmZ5EnkxezvLII0FWwNA=",
+        "ref": "nixos-unstable",
+        "rev": "02c087f3fe673c9e317f206a627cb6b910336dbe",
+        "shallow": true,
+        "type": "git",
+        "url": "https://gh-proxy.com/https://github.com/NixOS/nixpkgs.git"
+      },
+      "original": {
+        "ref": "nixos-unstable",
+        "shallow": true,
+        "type": "git",
+        "url": "https://gh-proxy.com/https://github.com/NixOS/nixpkgs.git"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs-proxy": "nixpkgs-proxy"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
